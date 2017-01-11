@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context="com.example.android.songquest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <TextView
+            style="@style/StyleForText"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/title"
+            android:textAllCaps="true"
+            android:textSize="24sp"/>
+
+        <TextView
+            style="@style/StyleForText"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/description"
+            android:textAlignment="center"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal">
+            
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                
+                <Button
+                    android:id="@+id/rap_button"
+                    style="@style/ButtonProperties"
+                    android:background="#1976D2"
+                    android:text="@string/genre_1"/>
+
+                <Button
+                    android:id="@+id/country_button"
+                    style="@style/ButtonProperties"
+                    android:background="#64B5F6"
+                    android:text="@string/genre_2"/>
+
+                <Button
+                    android:id="@+id/pop_button"
+                    style="@style/ButtonProperties"
+                    android:background="#1976D2"
+                    android:text="@string/genre_3"/>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/rock_button"
+                    style="@style/ButtonProperties"
+                    android:background="#64B5F6"
+                    android:text="@string/genre_4"/>
+
+                <Button
+                    android:id="@+id/rAndB_button"
+                    style="@style/ButtonProperties"
+                    android:background="#1976D2"
+                    android:text="@string/genre_5"/>
+
+                <Button
+                    android:id="@+id/indie_button"
+                    style="@style/ButtonProperties"
+                    android:background="#64B5F6"
+                    android:text="@string/genre_6"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

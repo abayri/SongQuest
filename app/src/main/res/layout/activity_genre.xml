@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context="com.example.android.songquest.GenreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <TextView
+            android:id="@+id/genre_text"
+            style="@style/StyleForText"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/key_name"
+            android:textAllCaps="true"
+            android:textSize="24sp"/>
+
+        <TextView
+            style="@style/StyleForText"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/song_page_description"
+            android:textAlignment="center"/>
+
+        <RelativeLayout
+            android:id="@+id/song1_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1976D2"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/song1"
+                style="@style/SongProperties"
+                android:layout_alignParentLeft="true"
+                android:text="@string/key_song1"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/song1_artist"
+                style="@style/SongProperties"
+                android:layout_below="@id/song1"
+                android:text="@string/key_song1_artist"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/song1_duration"
+                style="@style/SongProperties"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/key_song1_duration"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#2196F3"/>
+
+        <RelativeLayout
+            android:id="@+id/song2_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1976D2"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/song2"
+                style="@style/SongProperties"
+                android:layout_alignParentLeft="true"
+                android:text="@string/key_song2"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/song2_artist"
+                style="@style/SongProperties"
+                android:layout_below="@id/song2"
+                android:text="@string/key_song2_artist"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/song2_duration"
+                style="@style/SongProperties"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/key_song2_duration"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#2196F3"/>
+
+        <RelativeLayout
+            android:id="@+id/song3_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1976D2"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/song3"
+                style="@style/SongProperties"
+                android:layout_alignParentLeft="true"
+                android:text="@string/key_song3"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/song3_artist"
+                style="@style/SongProperties"
+                android:layout_below="@id/song3"
+                android:text="@string/key_song3_artist"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/song3_duration"
+                style="@style/SongProperties"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/key_song3_duration"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

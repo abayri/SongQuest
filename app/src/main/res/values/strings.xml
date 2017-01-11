@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">SongQuest</string>
+
+    <!-- Search title -->
+    <string name="search_title">Click here to find a song!</string>
+
+    <!-- Search hint -->
+    <string name="search_hint">Enter song or artist</string>
+
+    <!-- Name placer for GenreActivity -->
+    <string name="key_name">name</string>
+    <string name="key_song1">song1</string>
+    <string name="key_song2">song2</string>
+    <string name="key_song3">song3</string>
+    <string name="key_song1_artist">song1_artist</string>
+    <string name="key_song2_artist">song2_artist</string>
+    <string name="key_song3_artist">song3_artist</string>
+    <string name="key_song1_duration">song1_duration</string>
+    <string name="key_song2_duration">song2_duration</string>
+    <string name="key_song3_duration">song3_duration</string>
+
+    <!-- Main page top texts -->
+    <string name="title">Main Page</string>
+    <string name="description">This is the main page of the application. Below are a selection of genres
+                               a user can select to start their search quest!</string>
+
+    <!-- Genres listed on buttons -->
+    <string name="genre_1">Rap</string>
+    <string name="genre_2">Country</string>
+    <string name="genre_3">Pop</string>
+    <string name="genre_4">Rock</string>
+    <string name="genre_5">R&amp;B</string>
+    <string name="genre_6">Indie</string>
+
+    <!-- Song genre page titles -->
+    <string name="rap_title">Rap Songs</string>
+    <string name="country_title">Country Songs</string>
+    <string name="pop_title">Pop Songs</string>
+    <string name="rock_title">Rock Songs</string>
+    <string name="rAndB_title">R&amp;B Songs</string>
+    <string name="indie_title">Indie Songs</string>
+
+
+    <!-- Description underneath genre page title -->
+    <string name="song_page_description">This page provides recommendations for a user based on previous
+                                         search history. For our purposes, I have chosen a few sample songs.
+                                         When a user clicks on the box containing a song, a playing screen
+                                         will be brought up.</string>
+
+    <!-- Song titles -->
+    <string name="rap_song1">Thuggish Ruggish Bone</string>
+    <string name="rap_song2">Lights Turned On</string>
+    <string name="rap_song3">King Kunta</string>
+
+    <string name="country_song1">Setting The World On Fire</string>
+    <string name="country_song2">Blue Ain\'\ t Your Color</string>
+    <string name="country_song3">Move</string>
+
+    <string name="pop_song1">Shake It Off</string>
+    <string name="pop_song2">24K Magic</string>
+    <string name="pop_song3">This Is What You Came For</string>
+
+    <string name="rock_song1">All My Life</string>
+    <string name="rock_song2">Stairway To Heaven</string>
+    <string name="rock_song3">One</string>
+
+    <string name="rAndB_song1">Ignition (Remix)</string>
+    <string name="rAndB_song2">You Remind Me</string>
+    <string name="rAndB_song3">So Sick</string>
+
+    <string name="indie_song1">Mr. Brightside</string>
+    <string name="indie_song2">What A Week</string>
+    <string name="indie_song3">Dog Days Are Over</string>
+
+    <!-- Song artists -->
+    <string name="rap_song1_artist">Bone Thugs N Harmony</string>
+    <string name="rap_song2_artist">Childish Gambino</string>
+    <string name="rap_song3_artist">Kendrick Lamar</string>
+
+    <string name="country_song1_artist">Kenny Chesney ft. Pink</string>
+    <string name="country_song2_artist">Keith Urban</string>
+    <string name="country_song3_artist">Luke Bryan</string>
+
+    <string name="pop_song1_artist">Taylor Swift</string>
+    <string name="pop_song2_artist">Bruno Mars</string>
+    <string name="pop_song3_artist">Rihanna</string>
+
+    <string name="rock_song1_artist">Foo Fighters</string>
+    <string name="rock_song2_artist">Ledd Zeppelin</string>
+    <string name="rock_song3_artist">Metallica</string>
+
+    <string name="rAndB_song1_artist">R. Kelly</string>
+    <string name="rAndB_song2_artist">Usher</string>
+    <string name="rAndB_song3_artist">Ne-yo</string>
+
+    <string name="indie_song1_artist">The Killers</string>
+    <string name="indie_song2_artist">Magic Bronson</string>
+    <string name="indie_song3_artist">Florence And The Machine</string>
+
+    <!-- Song durations -->
+    <string name="rap_song1_duration">4:39</string>
+    <string name="rap_song2_duration">3:45</string>
+    <string name="rap_song3_duration">3:57</string>
+
+    <string name="country_song1_duration">3:42</string>
+    <string name="country_song2_duration">4:07</string>
+    <string name="country_song3_duration">3:55</string>
+
+    <string name="pop_song1_duration">4:02</string>
+    <string name="pop_song2_duration">3:46</string>
+    <string name="pop_song3_duration">3:59</string>
+
+    <string name="rock_song1_duration">4:23</string>
+    <string name="rock_song2_duration">8:01</string>
+    <string name="rock_song3_duration">7:07</string>
+
+    <string name="rAndB_song1_duration">3:16</string>
+    <string name="rAndB_song2_duration">4:27</string>
+    <string name="rAndB_song3_duration">3:32</string>
+
+    <string name="indie_song1_duration">3:39</string>
+    <string name="indie_song2_duration">2:38</string>
+    <string name="indie_song3_duration">3:44</string>
+
+    <!-- Description underneath the search results page -->
+    <string name="search_results_page_description">This page displays the results of a query entered
+                                                   by the user. For a fully functional app, the query would
+                                                   be compared to a huge database. For our purposes, I have limited
+                                                   the search to only the 18 songs found in the strings.xml file.
+                                                   If the search matches a song or artist in the strings.xml file,
+                                                   the user will be provided with a clickable View box. If the song cannot
+                                                   be found, a sorry message is displayed.</string>
+
+    <!-- Search results top texts -->
+    <string name="results_title">Search Results</string>
+    <string name="results_description">Sorry, we could not find the following song: </string>
+    <string name="search_results">song</string>
+    <string name="main_button">Return To Main</string>
+
+    <!-- Texts for play screen -->
+    <string name="play_song">song</string>
+    <string name="play_artist">artist</string>
+    <string name="play_start">0:00</string>
+    <string name="play_duration">duration</string>
+
+    <!-- Toast message for search results -->
+    <string name="toast_message">Sorry, song cannot be found in our database :-(</string>
+
+    <!-- Description underneath the play page -->
+    <string name="play_page_description">This page is the play screen of the song. Nothing will happen when the buttons
+                                         are clicked, but you will get a nice toast message!</string>
+
+    <string name="play_toast1">Yay! You clicked me!!</string>
+    <string name="play_toast2">Wish I could help you out!</string>
+    <string name="play_toast3">Sorry, this is only for show!</string>
+
+</resources>
